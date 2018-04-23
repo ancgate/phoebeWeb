@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+      xmlns:ui="http://java.sun.com/jsf/facelets" 
+      xmlns:f="http://java.sun.com/jsf/core" 
+      xmlns:h="http://java.sun.com/jsf/html" 
+      xmlns:pe="http://primefaces.org/ui/extensions" 
+      xmlns:p="http://primefaces.org/ui" dir="ltr">
+
+    <h:head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+            <!-- Meta, title, CSS, favicons, etc. -->
+            <meta charset="utf-8"></meta>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+            <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+            <title>Phoebe</title>
+            <!-- Bootstrap core CSS -->
+
+            <link rel="stylesheet" type="text/css" href="#{request.contextPath}/resources/css/bootstrap.min.css"/>
+            <link rel="stylesheet" type="text/css" href="#{request.contextPath}/resources/css/icheck/flat/green.css"/>
+            <link rel="stylesheet" type="text/css" href="#{request.contextPath}/resources/css/custom.css"/>
+            <link rel="stylesheet" type="text/css" href="#{request.contextPath}/resources/css/animate.min.css"/>
+            <link rel="stylesheet" type="text/css" href="#{request.contextPath}/resources/fonts/css/font-awesome.min.css"/>
+            <link rel="stylesheet" type="text/css" href="#{request.contextPath}/resources/css/nprogress.css"/>
+            <link rel="stylesheet" type="text/css" href="#{request.contextPath}/resources/css/smart_wizard.css"/>
+            
+
+    </h:head>
+    <h:body class="nav-md">
+        <div class="container body">
+
+
+            <div class="main_container">
+
+                <!--   Side Menu       -->
+
+                <ui:include src="menu.xhtml"/>
+
+                <!-- End Side Menu -->
+
+                <!-- top navigation -->
+                <ui:include src="header.xhtml"/>
+                <!-- /top navigation -->
+
+                <!-- page content -->
+                <div class="right_col" role="main">
+
+                    <ui:insert name="content"/>              
+                    <!-- footer content -->
+
+                    <ui:include src="footer.xhtml"/>
+
+                    <!-- /footer content -->
+
+                </div>
+                <!-- /page content -->
+            </div>
+        </div>
+
+        <!-- Notifications -->
+
+        <ui:include src="notifications.xhtml"/>
+
+        <!-- Notifications -->
+
+        <script type="text/javascript" src="#{request.contextPath}/resources/js/custom.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/resources/js/jquery.min.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/resources/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/resources/js/nprogress.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/resources/js/fastclick/lib/fastclick.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/resources/js/wizard/js/jquery.smartWizard.js"></script>     
+    </h:body>
+</html>
