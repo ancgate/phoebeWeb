@@ -1,10 +1,10 @@
-# Gentella with JSF 2.1 and Primefaces 5.3
+# Gentella with JSF 2.2 and Primefaces 6.0
 Gentelella - Bootstrap Admin Template
 Best open source admin dashboard & control panel theme. Built on top of Bootstrap 3, provides a range of responsive, reusable, and commonly used components.
 
-Modify to work With JSF 2.1 and Primefaces 5.3
-Visit my linkedin 
-<a href="https://br.linkedin.com/in/fabiobritopinto">Fábio Brito Pinto</a>
+Modify to work With JSF 2.2 and Primefaces 6.0
+
+Thanks to  <a href="https://br.linkedin.com/in/fabiobritopinto">Fábio Brito Pinto</a>
 
 Screen
 
